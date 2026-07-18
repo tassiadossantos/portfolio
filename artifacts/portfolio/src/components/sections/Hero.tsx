@@ -11,14 +11,6 @@ export function Hero() {
       id="hero"
       className="min-h-screen flex items-center relative overflow-hidden pt-20 hud-grid"
     >
-      {/* Scan line */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        <div
-          className="animate-scan absolute left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-primary/60 to-transparent"
-          style={{ top: 0 }}
-        />
-      </div>
-
       {/* Background glows */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute top-1/3 left-1/4 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px]" />

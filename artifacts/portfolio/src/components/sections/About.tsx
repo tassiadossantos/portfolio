@@ -34,11 +34,6 @@ export function About() {
   return (
     <section id="about" className="py-24 relative border-t border-border/30 hud-grid">
 
-      {/* Decorative scan line */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="animate-scan absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" style={{ top: 0 }} />
-      </div>
-
       <div className="container mx-auto px-6 md:px-12">
 
         {/* Section header */}
