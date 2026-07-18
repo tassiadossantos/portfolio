@@ -55,7 +55,6 @@ export function Navbar() {
           onClick={(e) => handleClick(e, '#hero')}
           className="flex items-center gap-2 text-primary font-mono font-bold text-xl tracking-tighter"
         >
-          <Code2 className="w-6 h-6" />
           <span>&gt;_ FE.DEV</span>
         </a>
 
