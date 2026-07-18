@@ -80,7 +80,7 @@ export function Contact() {
                   <Linkedin className="w-4 h-4" /> LinkedIn
                 </a>
                 <a
-                  href="https://wa.me/5571996171605"
+                  href="https://wa.me/5571996171605?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portf%C3%B3lio%20(%3E_%20FE.DEV)%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.%20%F0%9F%9A%80"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 h-10 border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all font-mono text-xs"
