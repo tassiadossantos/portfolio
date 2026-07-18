@@ -4,10 +4,9 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { name: 'Sobre',       href: '#about' },
+  { name: 'Filosofia',   href: '#philosophy' },
   { name: 'Projetos',    href: '#projects' },
   { name: 'Habilidades', href: '#skills' },
-  { name: 'Filosofia',   href: '#philosophy' },
-  { name: 'Artigos',     href: '#articles' },
 ];
 
 export function Navbar() {

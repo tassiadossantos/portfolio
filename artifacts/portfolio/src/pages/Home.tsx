@@ -2,10 +2,9 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/About';
+import { Philosophy } from '@/components/sections/Philosophy';
 import { Projects } from '@/components/sections/Projects';
 import { Skills } from '@/components/sections/Skills';
-import { Philosophy } from '@/components/sections/Philosophy';
-import { Blog } from '@/components/sections/Blog';
 
 export default function Home() {
   return (
@@ -14,10 +13,9 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Philosophy />
         <Projects />
         <Skills />
-        <Philosophy />
-        <Blog />
       </main>
       <Footer />
     </div>
