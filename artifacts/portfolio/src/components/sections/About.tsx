@@ -100,7 +100,7 @@ export function About() {
               </h3>
               <div className="space-y-5 text-foreground/80 leading-relaxed">
                 <p>
-                  Sou <strong className="text-foreground">Desenvolvedora Front-end</strong> com foco em <strong className="text-foreground">UI Design</strong>, estudante de Ciência da Computação e alguém que acredita que um bom produto começa com uma interface que faz sentido para quem a usa.
+                  Sou <strong className="text-foreground">Desenvolvedora Front-end</strong> <span className="font-mono text-primary/60 text-sm">(&gt;_ FE.DEV)</span> com foco em <strong className="text-foreground">UI Design</strong>, estudante de Ciência da Computação e alguém que acredita que um bom produto começa com uma interface que faz sentido para quem a usa.
                 </p>
                 <p>
                   Trabalho com <strong className="text-primary">React</strong>, <strong className="text-primary">TypeScript</strong> e <strong className="text-primary">Node.js</strong> para criar aplicações do zero — da concepção ao deploy em produção. Minha casa é o front-end, mas não tenho medo de atravessar a porta do back-end quando o projeto pede: já implementei APIs REST, integração com banco de dados e rastreabilidade via <strong className="text-foreground">blockchain</strong>, usando IA como ferramenta de apoio no processo, não como substituta do raciocínio.
