@@ -95,7 +95,7 @@ export function Hero() {
             <Button
               onClick={() => scrollTo('#projects')}
               size="lg"
-              className="h-13 px-8 text-sm font-mono rounded-none bg-primary text-primary-foreground hover:bg-primary/90 transition-all border border-primary glow-orange hover:glow-orange-strong tracking-widest uppercase"
+              className="h-13 px-8 text-sm font-mono rounded-none bg-primary text-primary-foreground hover:bg-primary/90 transition-all border border-primary tracking-widest uppercase" style={{ boxShadow: '0 0 16px rgba(255,107,0,0.2)' }}
             >
               Ver Projetos
             </Button>
