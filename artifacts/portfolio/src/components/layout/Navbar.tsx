@@ -48,9 +48,7 @@ export function Navbar() {
           onClick={(e) => handleClick(e, '#hero')}
           className="flex items-center gap-2 font-mono font-bold text-lg tracking-tight group"
         >
-          <span className="text-primary/50 group-hover:text-primary transition-colors">[</span>
           <span className="text-primary text-glow">&gt;_ FE.DEV</span>
-          <span className="text-primary/50 group-hover:text-primary transition-colors">]</span>
         </a>
 
         {/* System status */}
