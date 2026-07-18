@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
-import { Github, Linkedin, MapPin, CheckCircle2 } from 'lucide-react';
+import { Github, Linkedin, MapPin, CheckCircle2, MessageCircle } from 'lucide-react';
 
 const formSchema = z.object({
   name: z.string().min(2, 'Nome precisa ter pelo menos 2 caracteres'),
@@ -78,6 +78,14 @@ export function Contact() {
                   className="flex items-center gap-2 px-4 h-10 border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all font-mono text-xs"
                 >
                   <Linkedin className="w-4 h-4" /> LinkedIn
+                </a>
+                <a
+                  href="https://wa.me/5571996171605"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 h-10 border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all font-mono text-xs"
+                >
+                  <MessageCircle className="w-4 h-4" /> WhatsApp
                 </a>
               </div>
             </div>
