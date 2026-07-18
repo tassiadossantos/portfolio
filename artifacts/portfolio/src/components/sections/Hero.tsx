@@ -99,14 +99,6 @@ export function Hero() {
             >
               Ver Projetos
             </Button>
-            <Button
-              onClick={() => scrollTo('#contact')}
-              size="lg"
-              variant="outline"
-              className="h-13 px-8 text-sm font-mono rounded-none border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary transition-all tracking-widest uppercase"
-            >
-              Entrar em Contato
-            </Button>
           </div>
         </motion.div>
       </div>

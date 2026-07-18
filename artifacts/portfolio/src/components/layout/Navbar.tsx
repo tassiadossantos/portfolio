@@ -8,7 +8,6 @@ const navItems = [
   { name: 'Habilidades', href: '#skills' },
   { name: 'Filosofia',   href: '#philosophy' },
   { name: 'Artigos',     href: '#articles' },
-  { name: 'Contato',     href: '#contact' },
 ];
 
 export function Navbar() {
