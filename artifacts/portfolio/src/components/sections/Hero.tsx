@@ -35,7 +35,12 @@ export function Hero() {
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 leading-[1.1]">
             <span className="block text-foreground">Desenvolvedora</span>
-            <span className="block text-primary mt-2">Front-end &amp; UI.</span>
+            <span className="block text-primary mt-2">
+              Front-end &amp; UI.{' '}
+              <span className="text-foreground/40 font-mono text-3xl md:text-4xl lg:text-5xl align-middle">
+                (&gt;_ FE.DEV)
+              </span>
+            </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-2xl font-light leading-relaxed border-l-2 border-primary/60 pl-6 py-2 italic">
