@@ -89,11 +89,9 @@ export default function ArticlePage() {
       {/* Header */}
       <header className="border-b border-border/30 sticky top-0 z-50 bg-background/90 backdrop-blur-sm">
         <div className="container mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
-          <Link href="/">
-            <a className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm group">
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              Voltar ao portfólio
-            </a>
+          <Link href="/" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm group">
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+            Voltar ao portfólio
           </Link>
           <span className="text-primary font-mono font-bold text-lg">&gt;_ FE.DEV</span>
         </div>
@@ -147,12 +145,10 @@ export default function ArticlePage() {
 
           {/* Footer */}
           <div className="border-t border-border/30 mt-16 pt-10">
-            <Link href="/#articles">
-              <a className="inline-flex items-center gap-2 text-sm font-mono text-muted-foreground hover:text-primary transition-colors group">
-                <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                Ver todos os artigos
-              </a>
-            </Link>
+            <Link href="/#articles" className="inline-flex items-center gap-2 text-sm font-mono text-muted-foreground hover:text-primary transition-colors group">
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+            Ver todos os artigos
+          </Link>
           </div>
         </motion.article>
       </main>

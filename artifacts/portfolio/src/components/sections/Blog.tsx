@@ -30,43 +30,44 @@ export function Blog() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.15, duration: 0.5 }}
             >
-              <Link href={`/artigos/${article.slug}`}>
-                <a className="block h-full">
-                  <Card className="h-full bg-background border-border/50 hover:border-primary/50 transition-all cursor-pointer group rounded-none flex flex-col hover:shadow-[0_0_20px_rgba(255,107,0,0.07)]">
-                    <CardContent className="p-8 flex flex-col h-full">
-                      <div className="flex items-center gap-4 text-xs text-muted-foreground font-mono mb-4">
-                        <span className="flex items-center gap-1">
-                          <Clock className="w-3 h-3" /> {article.readTime}
-                        </span>
-                        <span>/</span>
-                        <span>{article.date}</span>
+              <Link
+                href={`/artigos/${article.slug}`}
+                className="block h-full group cursor-pointer"
+              >
+                <Card className="h-full bg-background border-border/50 hover:border-primary/50 transition-all rounded-none flex flex-col hover:shadow-[0_0_20px_rgba(255,107,0,0.07)]">
+                  <CardContent className="p-8 flex flex-col h-full">
+                    <div className="flex items-center gap-4 text-xs text-muted-foreground font-mono mb-4">
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> {article.readTime}
+                      </span>
+                      <span>/</span>
+                      <span>{article.date}</span>
+                    </div>
+
+                    <h3 className="text-xl font-bold mb-4 group-hover:text-primary transition-colors leading-tight">
+                      {article.title}
+                    </h3>
+
+                    <p className="text-foreground/70 text-sm leading-relaxed mb-8 flex-grow">
+                      {article.excerpt}
+                    </p>
+
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="flex flex-wrap gap-2">
+                        {article.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="flex items-center gap-1 text-xs font-mono text-primary bg-primary/10 px-2 py-1"
+                          >
+                            <Tag className="w-3 h-3" />
+                            {tag}
+                          </span>
+                        ))}
                       </div>
-
-                      <h3 className="text-xl font-bold mb-4 group-hover:text-primary transition-colors leading-tight">
-                        {article.title}
-                      </h3>
-
-                      <p className="text-foreground/70 text-sm leading-relaxed mb-8 flex-grow">
-                        {article.excerpt}
-                      </p>
-
-                      <div className="flex items-center justify-between mt-auto">
-                        <div className="flex flex-wrap gap-2">
-                          {article.tags.map((tag) => (
-                            <span
-                              key={tag}
-                              className="flex items-center gap-1 text-xs font-mono text-primary bg-primary/10 px-2 py-1"
-                            >
-                              <Tag className="w-3 h-3" />
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                        <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-3" />
-                      </div>
-                    </CardContent>
-                  </Card>
-                </a>
+                      <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-3" />
+                    </div>
+                  </CardContent>
+                </Card>
               </Link>
             </motion.div>
           ))}

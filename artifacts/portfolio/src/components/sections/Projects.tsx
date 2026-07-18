@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Github, ExternalLink, Shield, Leaf, Briefcase } from 'lucide-react';
+import { Github, ExternalLink, Shield, Heart, Briefcase } from 'lucide-react';
 
 const projects = [
   {
@@ -30,21 +30,21 @@ const projects = [
     result:
       'Plataforma institucional gerando leads qualificados por WhatsApp e e-mail enquanto fortalece a autoridade digital da consultoria.',
     github: 'https://github.com/tassiadossantos/escudo-consultoria',
-    live: null,
+    live: 'https://tassiadossantos.github.io/escudo-consultoria/',
   },
   {
-    title: 'AgroTech',
-    subtitle: 'Rastreabilidade Blockchain',
-    icon: <Leaf className="w-6 h-6 text-primary" />,
+    title: 'CuidaMed',
+    subtitle: 'Assistência Clínica Domiciliar',
+    icon: <Heart className="w-6 h-6 text-primary" />,
     description:
-      'Protótipo enterprise B2B para rastreabilidade de produtos agrícolas usando blockchain — porque no agronegócio, transparência não é opcional.',
-    stack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Polygon (Ethereum L2)', 'Drizzle ORM', 'shadcn/ui'],
+      'Plataforma moderna para assistência clínica domiciliar — sistema completo com frontend responsivo e backend robusto para gerenciar atendimentos, registros médicos e comunicação com pacientes e famílias.',
+    stack: ['React 19', 'TypeScript', 'Vite', 'TailwindCSS', 'shadcn/ui', 'Framer Motion', 'Node.js', 'Express.js', 'Pino', 'Vitest'],
     challenge:
-      'Integração com a rede Polygon para imutabilidade criptográfica, rastreamento de 4 etapas da cadeia produtiva e componente de verificação on-chain vs off-chain.',
+      'Construir uma landing page profissional com seção de serviços (cuidador domiciliar, acompanhamento hospitalar, fisioterapia, enfermagem), formulário de agendamento e API RESTful escalável com logging estruturado.',
     result:
-      'Sistema com rastreabilidade completa e verificável criptograficamente — combatendo fraudes e aumentando a confiança em toda a cadeia produtiva.',
-    github: 'https://github.com/tassiadossantos/rastreabilidade-blockchain-',
-    live: null,
+      'Plataforma fullstack com testes completos (Vitest + React Testing Library + Supertest), design responsivo e arquitetura monorepo pronta para crescer.',
+    github: 'https://github.com/tassiadossantos/Sistema-Pragmatico-Futuro',
+    live: 'https://tassiadossantos.github.io/cuida-med-servicios/',
   },
 ];
 
