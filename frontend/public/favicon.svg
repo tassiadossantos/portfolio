@@ -1,17 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Background -->
   <rect width="32" height="32" rx="4" fill="#050D1A"/>
-  <!-- Orange accent bar top -->
   <rect x="0" y="0" width="32" height="3" rx="2" fill="#FF6B00"/>
-  <!-- >_ symbol -->
-  <text
-    x="16"
-    y="21"
-    font-family="'Courier New', Courier, monospace"
-    font-size="15"
-    font-weight="900"
-    fill="#FF6B00"
-    text-anchor="middle"
-    letter-spacing="-1"
-  >&gt;_</text>
+  <!-- >_ symbol converted to paths for reliable rendering -->
+  <path d="M8.5 11.5L14.5 16L8.5 20.5" stroke="#FF6B00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M16.5 20H22" stroke="#FF6B00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
 </svg>
