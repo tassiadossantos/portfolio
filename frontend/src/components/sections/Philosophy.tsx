@@ -7,7 +7,7 @@ const philosophies = [
   },
   {
     title: 'Código limpo é respeito',
-    desc: 'Código limpo não é perfeccionismo — é respeito pelo próximo dev, que pode ser você mesma em três meses.',
+    desc: 'Código limpo não é perfeccionismo — é respeito pelo próximo dev, que pode ser eu mesma em três meses.',
   },
   {
     title: 'Performance como detalhe',
