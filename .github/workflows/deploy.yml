@@ -36,7 +36,7 @@ jobs:
         env:
           NODE_ENV: production
           PORT: "4173"
-          BASE_PATH: "/portfolio/"
+          BASE_PATH: "/portfolio-v2/"
 
       - uses: actions/upload-pages-artifact@v3
         with:
