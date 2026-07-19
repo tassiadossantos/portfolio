@@ -89,9 +89,9 @@ portfolio/
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| **DevBoard** | Productivity dashboard for developers (commits, streaks, metrics) | React, TypeScript, Vite, Recharts, Zustand, Tailwind CSS |
 | **CodeX** | Enterprise HUD site for lead capture | React, TypeScript, Vite, TailwindCSS v4, Supabase, Framer Motion |
 | **Escudo Consultoria** | SST consulting platform with multi-step forms | React, Node.js, Express, PostgreSQL, Drizzle ORM, Zod |
-| **CuidaMed** | Home care platform with fullstack architecture | React 19, Node.js, Express, Vitest, TailwindCSS |
 
 ### License
 
@@ -182,9 +182,9 @@ portfolio/
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
+| **DevBoard** | Dashboard de produtividade para desenvolvedores (commits, streaks, métricas) | React, TypeScript, Vite, Recharts, Zustand, Tailwind CSS |
 | **CodeX** | Site HUD enterprise para captação de leads | React, TypeScript, Vite, TailwindCSS v4, Supabase, Framer Motion |
 | **Escudo Consultoria** | Plataforma SST com formulários multi-etapas | React, Node.js, Express, PostgreSQL, Drizzle ORM, Zod |
-| **CuidaMed** | Plataforma de assistência domiciliar fullstack | React 19, Node.js, Express, Vitest, TailwindCSS |
 
 ### Licença
 

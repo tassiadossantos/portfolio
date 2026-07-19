@@ -1,9 +1,23 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Github, ExternalLink, Shield, Heart, Briefcase } from 'lucide-react';
+import { Github, ExternalLink, Shield, Briefcase, BarChart3 } from 'lucide-react';
 
 const projects = [
+  {
+    title: 'DevBoard',
+    subtitle: 'Dashboard de Produtividade',
+    icon: <BarChart3 className="w-6 h-6 text-primary" />,
+    description:
+      'Painel de produtividade que reúne seus commits do GitHub, streaks, idiomas e métricas em uma única interface bonita e funcional — unificando dados de produtividade como desenvolvedor em um único dashboard elegante.',
+    stack: ['React', 'TypeScript', 'Vite', 'Recharts', 'Zustand', 'Tailwind CSS', 'date-fns'],
+    challenge:
+      'Integrar dados de múltiplas fontes (GitHub, WakaTime) em uma interface coesa, com gráficos interativos, calendário de contribuições, rastreador de streaks e temas claro/escuro.',
+    result:
+      'Ferramenta pessoal de produtividade que centraliza métricas de desenvolvimento, permitindo foco em entregar código ao invés de alternar entre abas.',
+    github: 'https://github.com/tassiadossantos/devboard',
+    live: 'https://tassiadossantos.github.io/devboard/',
+  },
   {
     title: 'CodeX',
     subtitle: 'Sistemas Enterprise',
@@ -31,20 +45,6 @@ const projects = [
       'Plataforma institucional gerando leads qualificados por WhatsApp e e-mail enquanto fortalece a autoridade digital da consultoria.',
     github: 'https://github.com/tassiadossantos/escudo-consultoria',
     live: 'https://tassiadossantos.github.io/escudo-consultoria/',
-  },
-  {
-    title: 'CuidaMed',
-    subtitle: 'Assistência Clínica Domiciliar',
-    icon: <Heart className="w-6 h-6 text-primary" />,
-    description:
-      'Plataforma moderna para assistência clínica domiciliar — sistema completo com frontend responsivo e backend robusto para gerenciar atendimentos, registros médicos e comunicação com pacientes e famílias.',
-    stack: ['React 19', 'TypeScript', 'Vite', 'TailwindCSS', 'shadcn/ui', 'Framer Motion', 'Node.js', 'Express.js', 'Pino', 'Vitest'],
-    challenge:
-      'Construir uma landing page profissional com seção de serviços (cuidador domiciliar, acompanhamento hospitalar, fisioterapia, enfermagem), formulário de agendamento e API RESTful escalável com logging estruturado.',
-    result:
-      'Plataforma fullstack com testes completos (Vitest + React Testing Library + Supertest), design responsivo e arquitetura monorepo pronta para crescer.',
-    github: 'https://github.com/tassiadossantos/Sistema-Pragmatico-Futuro',
-    live: 'https://tassiadossantos.github.io/cuida-med-servicios/',
   },
 ];
 
