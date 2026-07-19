@@ -2,7 +2,7 @@ kind = "web"
 previewPath = "/"
 title = "Portfolio"
 version = "1.0.0"
-id = "artifacts/portfolio"
+id = "frontend"
 router = "path"
 
 [[services]]
@@ -16,7 +16,7 @@ run = "pnpm --filter @workspace/portfolio run dev"
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/portfolio", "run", "build" ]
 serve = "static"
-publicDir = "artifacts/portfolio/dist/public"
+publicDir = "frontend/dist/public"
 
 [[services.production.rewrites]]
 from = "/*"

@@ -67,10 +67,8 @@ pnpm --filter @workspace/db run push    # push schema changes (dev only)
 
 ```
 portfolio/
-├── artifacts/
-│   ├── portfolio/          # Main portfolio frontend (React + Vite)
-│   ├── api-server/         # Express 5 API server
-│   └── mockup-sandbox/     # Component playground
+├── frontend/               # Portfolio frontend (React + Vite)
+├── backend/                # Express 5 API server
 ├── lib/
 │   ├── db/                 # Drizzle ORM schema & config
 │   ├── api-spec/           # OpenAPI specification
@@ -162,10 +160,8 @@ pnpm --filter @workspace/db run push    # push de mudanças de schema (dev only)
 
 ```
 portfolio/
-├── artifacts/
-│   ├── portfolio/          # Frontend principal do portfólio (React + Vite)
-│   ├── api-server/         # API server Express 5
-│   └── mockup-sandbox/     # Playground de componentes
+├── frontend/               # Frontend principal do portfólio (React + Vite)
+├── backend/                # API server Express 5
 ├── lib/
 │   ├── db/                 # Schema & config Drizzle ORM
 │   ├── api-spec/           # Especificação OpenAPI

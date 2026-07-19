@@ -40,7 +40,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: artifacts/portfolio/dist/public
+          path: frontend/dist/public
 
   deploy:
     needs: build
