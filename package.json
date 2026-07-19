@@ -9,9 +9,7 @@
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./frontend/**\" --filter \"./backend\" --filter \"./scripts\" --if-present run typecheck"
   },
   "private": true,
-  "dependencies": {
-    "@replit/connectors-sdk": "^0.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "prettier": "^3.9.5",
     "typescript": "~5.9.3"
